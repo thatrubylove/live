@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+form {
+  border: 0;
+  background-color: none
+}
+
+/*----------------------------
+02. Typography
+----------------------------*/
+  body {
+    font: 600 22.5px/33.5px 'open sans', sans-serif;
+  }
+
+  h1 {
+    font: bold 3.0em/1.1 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font: 400 2.4em 'Montserrat', sans-serif;
+    margin: 1.2em;
+    text-shadow: none;
+  }
+
+  h3 {
+    font: 400 2.1em 'Montserrat', sans-serif;
+    margin: 0.9em;
+    text-shadow: none;
+  }
+
+  h4 {
+    font: 400 1.6em 'Montserrat', sans-serif;
+    margin: 0.8em;
+    text-shadow: none;
+  }
+
+  p {
+
+    font: 1em/1.425em 'Open Sans', helvetica, arial, sans-serif;
+    margin-bottom: 20px;
+  }
+
+  /*----------------------------
+  03. Buttons
+  -----------------------------*/
+  .btn a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .btn {
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  #home {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  #home:before {
+    background: url(../images/top_bg.jpg) fixed;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  #home h1{
+    position: relative;
+    top: 24%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    width: 100%;
+    background: #fff;
+  }
+
+  #home h2{
+    position: relative;
+    top: 24%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    width: 100%;
+    background: #53bcf4;
+    margin-bottom: 1em;
+  }
+
+  #home h1 {
+    font: bold 1.7em/1.1 'Montserrat', sans-serif;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+
+  #home h2 {
+    font: bold 1.5em/1.1 'Montserrat', sans-serif;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+
+  #home h3 {
+    color: #529CE4;
+    font: bold 1.1em/1.1 'Montserrat', sans-serif;
+    margin: 0.7em;
+  }
+
+  #home h4 {
+    font: bold 0.9em/1.1 'Montserrat', sans-serif;
+    margin: 0.7em;
+  }
+
+  #home .email-sign-up {
+    margin-bottom: 1em;
+    position: relative;
+    top: 23%;
+    background: #fff;
+    padding: 1em;
+    border-radius: 1em;
+    opacity: 1;
+  }
+
+  #home .email-sign-up input {
+    background: #fff;
+    color: #323232;
+    padding: 2em;
+    border: 2px solid #ed4545;
+    margin: 1em;
+  }
+
+  #home .email-sign-up button {
+    background: #ed4545;
+    padding: 1.45em;
+    border: 2px solid #ed4545;
+    color: #fff;
+    z-index: 1000;
+  }
+
+  #home .email-sign-up button:hover {
+    background: #ef0a0a;
+  }
+
