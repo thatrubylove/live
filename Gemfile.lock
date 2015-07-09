@@ -2,9 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     rack (1.6.4)
+    rack-router (0.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   rack
+  rack-router
+
+BUNDLED WITH
+   1.10.5
